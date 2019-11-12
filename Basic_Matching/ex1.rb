@@ -15,7 +15,6 @@ def number_of_matches(string, regex)
     matches.push('match')
     dup_string.sub!(regex, '')
   end
-  puts string
   matches.length
 end
 
